@@ -16,7 +16,7 @@ export const ShopProvider = ({ children }) => {
     { id: 'list', icon: 'fa-list', dest: '/taskManagement'},
     { id: 'laptop', icon: 'fa-laptop', dest: '/wfh'},
     { id: 'user', icon: 'fa-user', dest: '/profile'},
-    { id: 'powerOff', icon: 'fa-power-off', dest: '/logout'},
+    { id: 'logout', icon: 'fa-power-off', dest: '/logout'},
   ];
 
   return (
